@@ -1,0 +1,13 @@
+def isleapyear (year) :
+return year%4==0 and(year%400==0 or year%100!= 0)
+print (isleapyear(2020)) 
+year=input("请输入年份:")
+print (isleapyear(int(year)))
+def isprime (number) :
+for n in range(2, number) :
+if number%n==0 :
+return False
+return True
+print(isprime(17))
+number = input("请输入一个数字:")
+print( isprime(int(number)))
